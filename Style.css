@@ -61,6 +61,13 @@ button:hover {
     background-color: #005bb5;
 }
 
+.landing-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
 form {
     display: flex;
     flex-direction: column;
