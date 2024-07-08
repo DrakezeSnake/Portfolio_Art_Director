@@ -1,0 +1,33 @@
+.split-container, .about-me-container, .projects-container, .contact-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.split-container {
+  display: flex;
+}
+
+.split-section {
+  flex: 1;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#before-art-direction {
+  background-image: url('before.jpg');
+}
+
+#after-art-direction {
+  background-image: url('after.jpg');
+}
+
+.project-section {
+  margin: 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
